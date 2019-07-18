@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutLinear"
+    android:background="@color/cyan900">
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/perg1"
+        android:textSize="20sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:id="@+id/optOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filme1"
+            android:enabled="false"
+            />
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:id="@+id/optTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filme2"
+            android:enabled="false"
+            />
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:id="@+id/optThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filme3"
+            android:enabled="false"
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/perg2"
+        android:textSize="20sp"
+        />
+
+    <RadioGroup
+
+        android:id="@+id/RadioGPTwo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:id="@+id/opOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comida1"
+            android:enabled="false"
+            />
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:id="@+id/opTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comida2"
+            android:enabled="false"
+            />
+
+        <RadioButton
+            android:textColor="@color/white"
+            android:id="@+id/opThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comida3"
+            android:enabled="false"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:background="@color/teal500"
+        android:textColor="@color/limeA400"
+        android:id="@+id/botaoPlano"
+        android:text="@string/buttonPlano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/resultPlano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ToggleButton
+            android:textColor="@color/black"
+            android:id="@+id/botaoToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textOff="Desligado"
+            android:textOn="Ligado"
+            />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/textoExib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/botaoToggle"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

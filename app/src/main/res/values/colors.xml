@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#4DD0E1</color>
+
+    <color name="white">#fff</color>
+    <color name="gray">#888</color>
+    <color name="black">#000</color>
+
+    <!-- Material Colors -->
+
+    <color name="cyan900">#006064</color> <!--BG-->
+    <color name="cyan300">#4DD0E1</color> <!--Accent Color-->
+    <color name="limeA400">#C6FF00</color> <!--Button Text-->
+    <color name="teal500">#009688</color> <!--Button BG and Off Radio-->
+</resources>

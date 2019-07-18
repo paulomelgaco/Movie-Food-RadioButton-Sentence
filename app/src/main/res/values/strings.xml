@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RadioStuff</string>
+
+    <string name="buttonPlano">Qual o plano para hoje a noite?</string>
+    <string name="comida1">Pipoca e Refrigerante</string>
+    <string name="comida2">Pizza</string>
+    <string name="comida3">X-Burger</string>
+    <string name="filme1">Harry Potter</string>
+    <string name="filme2">Operação Babá</string>
+    <string name="filme3">A Origem</string>
+    <string name="perg1">Qual seu filme favorito?</string>
+    <string name="perg2">Qual sua comida preferida?</string>
+
+</resources>
